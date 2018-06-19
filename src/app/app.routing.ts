@@ -15,7 +15,7 @@ export const routes: Routes = [
     data: {pageTitle: 'Home'},
     children: [
       {
-        path: '', redirectTo: 'dashboard/analytics', pathMatch: 'full'
+        path: '', redirectTo: 'home', pathMatch: 'full'
       },
       {
         path: 'miscellaneous',
