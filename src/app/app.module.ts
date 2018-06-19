@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import {JoeDayzLayoutModule} from "./shared/layout/layout.module";
 
 import { routing } from './app.routing'
-import { HomeModule } from './home/home.module';
+
 
 @NgModule({
   declarations: [
@@ -15,7 +15,7 @@ import { HomeModule } from './home/home.module';
   imports: [
     BrowserModule,
     JoeDayzLayoutModule,
-    HomeModule,
+
     routing
   ],
   providers: [],
